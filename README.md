@@ -22,9 +22,10 @@
 ## C. Proses Pengerjaan Aplikasi
 [`^ Kembali Keatas ^`](#)
 
-*Instalsi menggunakan VM + Docker Container
-1. Buat VM menggunakan Image Linux (bebas mau os apa), recommend Ubuntu 20.0 LTS
-2. Akses VM melalui CMD/Putty atau terminal lainnya ( SSH username@ip )
+Instalasi aplikasi moodle menggunakan Azure VM dan DOcker Container
+
+1. Create virtual machine pada Azure
+2. Akses VM melalui CMD (SSH username@ip)
 3. Lakukan Update repository dengan perintah "sudo apt update"
 4. Lakukan instalasi Docker dengan perintah "sudo apt install docker.io"
 5. Lakukan download file script Moode melalui perintah "curl -sSL https://raw.githubusercontent.com/bitnami/bitnami-docker-moodle/master/docker-compose.yml > docker-compose.yml"
